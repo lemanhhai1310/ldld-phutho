@@ -1,0 +1,19 @@
+$colors: (
+        '000': #000,
+        'FFF': #FFF,
+        'C1E0FB': #C1E0FB,
+);
+@each $name,$value in $colors {
+  .bg-#{$name} {
+    background: $value;
+  }
+}
+
+$colors: (
+        'C1E0FB': #C1E0FB,
+);
+@each $name,$value in $colors {
+  .bgc-#{$name} {
+    background-color: $value;
+  }
+}

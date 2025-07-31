@@ -1,0 +1,17 @@
+.footer{
+  &__navbarContainer{
+    &:not(.uk-navbar-transparent){
+      background: #2756A6;
+    }
+    .uk-navbar-nav{
+      >li{
+        >a{
+          @extend .fz-16;
+          @extend .text-EDEDED;
+          @extend .barlow-bold;
+          min-height: 52px;
+        }
+      }
+    }
+  }
+}
