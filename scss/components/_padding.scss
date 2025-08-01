@@ -1,0 +1,71 @@
+$sizes: (
+        '0': 0,
+        '4': 4px,
+        '8': 8px,
+        '10': 10px,
+        '12': 12px,
+        '16': 16px,
+        '20': 20px,
+        '24': 24px,
+        '32': 32px,
+        '40': 40px,
+        '48': 48px
+);
+
+@each $name, $value in $sizes {
+  .padding-#{$name} {
+    padding: $value;
+  }
+  .padding-x-#{$name} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+  .padding-y-#{$name} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+
+  @each $breakpoint, $width in $grid-breakpoints {
+    @media (min-width: $width) {
+      .padding-#{$breakpoint}-#{$name} {
+        padding: $value;
+      }
+      .padding-#{$breakpoint}-x-#{$name} {
+        padding-left: $value;
+        padding-right: $value;
+      }
+      .padding-#{$breakpoint}-y-#{$name} {
+        padding-top: $value;
+        padding-bottom: $value;
+      }
+    }
+  }
+}
+
+$sizes-xy: (
+        '0-12': 0 12px,
+        '6-12': 6px 12px,
+        '9-12': 9px 12px,
+        '0-8': 0 8px,
+        '4-8': 4px 8px,
+        '5-10': 5px 10px,
+        '5-7': 5px 7px,
+        '10-20': 10px 20px,
+        '12-24': 12px 24px,
+        '16-32': 16px 32px
+);
+
+@each $name, $values in $sizes-xy {
+  .padding-#{$name} {
+    padding: $values;
+  }
+
+  @each $breakpoint, $width in $grid-breakpoints {
+    @media (min-width: $width) {
+      .padding-#{$breakpoint}-#{$name} {
+        padding: $values;
+      }
+    }
+  }
+}
+

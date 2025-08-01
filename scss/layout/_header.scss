@@ -1,0 +1,47 @@
+.header {
+  &__top{
+    $x:5px;
+    padding-top: #{$x};
+    padding-bottom: #{$x};
+    background: var(--bg-header-2) no-repeat top left / 531px 124px,
+    var(--bg-header-1) no-repeat top right / 642px 125px,
+    #fff; /* Màu nền cuối cùng */
+    &__logo{
+      img{
+        @include fluidx( 117px, 80px, width);
+      }
+    }
+    &__subnav{
+      >*{
+        >*{
+          &:first-child{
+            @extend .fz-15;
+            @extend .barlow-semibold;
+            @extend .text-717171;
+          }
+        }
+      }
+    }
+  }
+  &__navbarContainer{
+    &:not(.uk-navbar-transparent){
+      background: #068BDB;
+    }
+    &__item{
+      min-height: 54px;
+    }
+    &__searchIcon{
+      color: #fff;
+    }
+    .uk-navbar-nav{
+      >li{
+        >a{
+          @extend .fz-16;
+          @extend .text-FFF;
+          @extend .barlow-bold;
+          @extend .header__navbarContainer__item;
+        }
+      }
+    }
+  }
+}

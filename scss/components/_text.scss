@@ -16,6 +16,13 @@ $colors: (
         'FFF': #FFF,
         '555': #555,
         'EDEDED': #EDEDED,
+        '2756A6': #2756A6,
+        'ED3037': #ED3037,
+        '068BDB': #068BDB,
+        '717171': #717171,
+        '2D2D2D': #2D2D2D,
+        'A1A3A5': #A1A3A5,
+        '181818': #181818,
 );
 @each $name,$value in $colors {
   .text-#{$name} {
