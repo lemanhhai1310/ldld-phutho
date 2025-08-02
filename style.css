@@ -2314,6 +2314,15 @@
   min-height: 52px;
 }
 
+.home__boxThongke {
+  border-radius: 5px;
+  border: 1px solid var(--Neutral-5, #EDEDED);
+  background: #F6FAFA;
+}
+.home__boxThongke__title {
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--Neutral-5, #DCDCDC);
+}
 .home__news__item:nth-child(n+2) {
   border-top: 1px solid #EDEDED;
   padding-top: 11px;

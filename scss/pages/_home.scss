@@ -1,4 +1,13 @@
 .home{
+  &__boxThongke{
+    border-radius: 5px;
+    border: 1px solid var(--Neutral-5, #EDEDED);
+    background: #F6FAFA;
+    &__title{
+      padding-bottom: 7px;
+      border-bottom: 1px solid var(--Neutral-5, #DCDCDC);
+    }
+  }
   &__news{
     &__item{
       $x:11px;
