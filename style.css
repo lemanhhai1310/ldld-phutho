@@ -23,7 +23,7 @@
   font-style: normal;
 }
 
-.barlow-medium, .home__sidebar__list > li > a {
+.barlow-medium, .home__sidebar__list > li > a, .header__navbarContainer .uk-navbar-dropdown-nav > li > a {
   font-family: "Barlow", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -631,7 +631,7 @@
   font-size: 0.875rem;
 }
 
-.fz-15, .home__table tr th, .header__top__subnav > * > *:first-child {
+.fz-15, .home__table tr th, .header__navbarContainer .uk-navbar-dropdown-nav > li > a, .header__top__subnav > * > *:first-child {
   font-size: 0.9375rem;
 }
 
@@ -861,7 +861,7 @@
   color: white;
 }
 
-.text-555 {
+.text-555, .header__navbarContainer .uk-navbar-dropdown-nav > li > a {
   color: #555555;
 }
 
@@ -2306,6 +2306,16 @@
 }
 .header__navbarContainer__searchIcon {
   color: #fff;
+}
+.header__navbarContainer .uk-navbar-dropdown {
+  padding: 0;
+  border-top: 2px solid #FFCB2A;
+}
+.header__navbarContainer .uk-navbar-dropdown-nav > li > a {
+  padding: 10px 12px;
+}
+.header__navbarContainer .uk-navbar-dropdown-nav > li > a:hover {
+  background: #E5E5E5;
 }
 .footer__navbarContainer:not(.uk-navbar-transparent) {
   background: #2756A6;

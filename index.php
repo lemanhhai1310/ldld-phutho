@@ -47,31 +47,44 @@
                 </div>
                 <div class="uk-grid-24 item-22px" uk-grid>
                     <div class="uk-width-expand">
-                        <div uk-slideshow="animation: push;ratio: 628:392;">
-                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-                                <div class="uk-slideshow-items">
-                                    <div>
-                                        <img src="images/photo.jpg" alt="" uk-cover>
+                        <div uk-slider="autoplay: true">
+
+                            <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+
+                                <div class="uk-slider-items uk-child-width-1-1">
+                                    
+                                    <div class="uk-transition-toggle">
+                                        <div class="uk-cover-container">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="https://picsum.photos/800/600?random=1" alt="" uk-cover="">
+                                            <canvas width="628" height="392"></canvas>
+                                        </div>
+                                        <div class="item-21px">
+                                            <h3 class="uk-margin-remove lh-136 text-068BDB fz-22 barlow-semibold"><a href="" class="uk-link-toggle">Liên đoàn Lao động huyện Cẩm Khê tổ chức hội nghị sơ kết công tác công đoàn 6 tháng đầu năm 2025, khen thưởng công đoàn năm 2023 - 2025</a></h3>
+                                        </div>
+                                        <div class="text-A1A3A5 item-5px">19/06/2025 11:47:10</div>
+                                        <div class="item-26px">Ngày 18/6, Liên đoàn Lao động huyện Cẩm Khê tổ chức hội nghị sơ kết công tác công đoàn 6 tháng đầu năm 2025, khen thưởng công đoàn năm học 2024-2025. Tới dự và chỉ đạo hội nghị có đồng chí Nguyễn Ngọc Hướng-</div>
                                     </div>
-                                    <div>
-                                        <img src="images/dark.jpg" alt="" uk-cover>
-                                    </div>
-                                    <div>
-                                        <img src="images/light.jpg" alt="" uk-cover>
+                                    <div class="uk-transition-toggle">
+                                        <div class="uk-cover-container">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="https://picsum.photos/800/600?random=2" alt="" uk-cover="">
+                                            <canvas width="628" height="392"></canvas>
+                                        </div>
+                                        <div class="item-21px">
+                                            <h3 class="uk-margin-remove lh-136 text-068BDB fz-22 barlow-semibold"><a href="" class="uk-link-toggle">Liên đoàn Lao động huyện Cẩm Khê tổ chức hội nghị sơ kết công tác công đoàn 6 tháng đầu năm 2025, khen thưởng công đoàn năm 2023 - 2025</a></h3>
+                                        </div>
+                                        <div class="text-A1A3A5 item-5px">19/06/2025 11:47:10</div>
+                                        <div class="item-26px">Ngày 18/6, Liên đoàn Lao động huyện Cẩm Khê tổ chức hội nghị sơ kết công tác công đoàn 6 tháng đầu năm 2025, khen thưởng công đoàn năm học 2024-2025. Tới dự và chỉ đạo hội nghị có đồng chí Nguyễn Ngọc Hướng-</div>
                                     </div>
                                 </div>
 
-                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
-                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
-                                <ul class="uk-position-bottom-center uk-position-small uk-slideshow-nav uk-dotnav uk-flex-center"></ul>
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
 
                             </div>
+
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
                         </div>
-                        <div class="item-21px">
-                            <h3 class="uk-margin-remove lh-136 text-068BDB fz-22 barlow-semibold"><a href="" class="uk-link-toggle">Liên đoàn Lao động huyện Cẩm Khê tổ chức hội nghị sơ kết công tác công đoàn 6 tháng đầu năm 2025, khen thưởng công đoàn năm 2023 - 2025</a></h3>
-                        </div>
-                        <div class="text-A1A3A5 item-5px">19/06/2025 11:47:10</div>
-                        <div class="item-26px">Ngày 18/6, Liên đoàn Lao động huyện Cẩm Khê tổ chức hội nghị sơ kết công tác công đoàn 6 tháng đầu năm 2025, khen thưởng công đoàn năm học 2024-2025. Tới dự và chỉ đạo hội nghị có đồng chí Nguyễn Ngọc Hướng-</div>
                     </div>
                     <div class="uk-width-1-3@l uk-flex-first@l">
                         <?php
@@ -93,11 +106,11 @@
                                 )
                         );
                         foreach ($news_items as $item): ?>
-                            <div class="home__news__item">
+                            <div class="home__news__item uk-transition-toggle">
                                 <div class="uk-grid-4-l uk-grid-10" uk-grid>
                                     <div class="uk-width-1-3 uk-width-1-1@l">
                                         <div class="uk-cover-container uk-background-muted">
-                                            <img src="<?php echo $item['image']; ?>" alt="" uk-cover="">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $item['image']; ?>" alt="" uk-cover="">
                                             <canvas width="267" height="159"></canvas>
                                         </div>
                                     </div>
@@ -152,18 +165,18 @@
                                     )
                             );
                             foreach ($video_items as $video): ?>
-                                <div>
-                                <div class="uk-cover-container">
-                                    <img src="<?php echo $video['image']; ?>" alt="" uk-cover="">
-                                    <canvas width="264" height="160"></canvas>
-                                    <div class="uk-position-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                                            <path d="M17.6934 0.500061C27.1901 0.500321 34.8857 8.17161 34.8857 17.6309C34.8857 27.0903 27.1902 34.7615 17.6934 34.7618C8.19634 34.7618 0.5 27.0904 0.5 17.6309C0.500039 8.17145 8.19637 0.500061 17.6934 0.500061Z" fill="#555555" stroke="white"/>
-                                            <path d="M25.1133 17.6309L13.9839 24.034L13.9839 11.2279L25.1133 17.6309Z" fill="white"/>
-                                        </svg>
+                                <div class="uk-transition-toggle">
+                                    <div class="uk-cover-container">
+                                        <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $video['image']; ?>" alt="" uk-cover="">
+                                        <canvas width="264" height="160"></canvas>
+                                        <div class="uk-position-center">
+                                            <svg class="uk-transition-fade" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                                <path d="M17.6934 0.500061C27.1901 0.500321 34.8857 8.17161 34.8857 17.6309C34.8857 27.0903 27.1902 34.7615 17.6934 34.7618C8.19634 34.7618 0.5 27.0904 0.5 17.6309C0.500039 8.17145 8.19637 0.500061 17.6934 0.500061Z" fill="#555555" stroke="white"/>
+                                                <path d="M25.1133 17.6309L13.9839 24.034L13.9839 11.2279L25.1133 17.6309Z" fill="white"/>
+                                            </svg>
+                                        </div>
+                                        <a href="" class="uk-position-cover"></a>
                                     </div>
-                                    <a href="" class="uk-position-cover"></a>
-                                </div>
                                     <div class="text-2D2D2D item-15px"><a href=""
                                                                           class="uk-link-toggle"><?php echo $video['title']; ?></a>
                                     </div>
@@ -209,9 +222,9 @@
                                     )
                             );
                             foreach ($gallery_items as $gallery): ?>
-                                <div>
+                                <div class="uk-transition-toggle">
                                     <div class="uk-cover-container">
-                                        <img src="<?php echo $gallery['image']; ?>" alt="" uk-cover="">
+                                        <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $gallery['image']; ?>" alt="" uk-cover="">
                                         <canvas width="264" height="160"></canvas>
                                         <a href="" class="uk-position-cover"></a>
                                     </div>
@@ -567,11 +580,11 @@
                                     )
                             );
                             foreach ($special_topics as $topic): ?>
-                                <div>
+                                <div class="uk-transition-toggle">
                                     <div class="barlow-bold text-068BDB lh-125"><?php echo $topic['category']; ?></div>
                                     <div class="bg-FFF uk-border-rounded padding-12 item-9px">
                                         <div class="uk-cover-container uk-border-rounded">
-                                            <img src="<?php echo $topic['image']; ?>" alt="" uk-cover="">
+                                            <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $topic['image']; ?>" alt="" uk-cover="">
                                             <canvas width="258" height="157"></canvas>
                                         </div>
                                         <div class="item-13px">

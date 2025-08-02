@@ -33,6 +33,23 @@
     &__searchIcon{
       color: #fff;
     }
+    .uk-navbar-dropdown{
+      padding: 0;
+      border-top: 2px solid #FFCB2A;
+    }
+    .uk-navbar-dropdown-nav{
+      >li{
+        >a{
+          @extend .fz-15;
+          @extend .barlow-medium;
+          @extend .text-555;
+          padding: 10px 12px;
+          &:hover{
+            background: #E5E5E5;
+          }
+        }
+      }
+    }
     .uk-navbar-nav{
       >li{
         >a{
