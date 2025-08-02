@@ -82,7 +82,7 @@
 
                             </div>
 
-                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden"></ul>
 
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                                         <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $video['image']; ?>" alt="" uk-cover="">
                                         <canvas width="264" height="160"></canvas>
                                         <div class="uk-position-center">
-                                            <svg class="uk-transition-fade" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                            <svg class="uk-transition-scale-up uk-transition-opaque" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                                 <path d="M17.6934 0.500061C27.1901 0.500321 34.8857 8.17161 34.8857 17.6309C34.8857 27.0903 27.1902 34.7615 17.6934 34.7618C8.19634 34.7618 0.5 27.0904 0.5 17.6309C0.500039 8.17145 8.19637 0.500061 17.6934 0.500061Z" fill="#555555" stroke="white"/>
                                                 <path d="M25.1133 17.6309L13.9839 24.034L13.9839 11.2279L25.1133 17.6309Z" fill="white"/>
                                             </svg>
@@ -226,6 +226,9 @@
                                     <div class="uk-cover-container">
                                         <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $gallery['image']; ?>" alt="" uk-cover="">
                                         <canvas width="264" height="160"></canvas>
+                                        <div class="uk-position-center uk-light">
+                                            <span class="uk-transition-scale-up uk-transition-opaque" uk-icon="icon: image; ratio: 1.5"></span>
+                                        </div>
                                         <a href="" class="uk-position-cover"></a>
                                     </div>
                                     <div class="text-2D2D2D item-15px"><a href=""
