@@ -469,9 +469,153 @@
                         </table>
                     </div>
                 </div>
+                <div class="uk-margin-medium-top">
+                    <div class="home__news__head">
+                        <div class="uk-child-width-auto" uk-grid>
+                            <div>
+                                <div class="home__news__head__line">
+                                    <div class="uk-grid-10 uk-flex-middle" uk-grid>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26" viewBox="0 0 22 26" fill="none">
+                                                <g clip-path="url(#clip0_4585_1083)">
+                                                    <path d="M16.3807 23.3625C16.7909 23.3625 17.1712 23.3647 17.5509 23.3625C18.4696 23.3575 18.981 22.8337 18.9832 21.8969C18.9846 21.473 18.9832 21.2611 18.9832 20.7909C19.1413 20.7909 19.2873 20.7909 19.4333 20.7909C19.8421 20.7909 20.2509 20.7938 20.6597 20.7902C21.4318 20.7829 21.9909 20.0422 21.993 19.2653C22.0037 16.2943 22.0002 13.3241 21.9973 10.3538C21.9973 10.024 21.7388 9.79539 21.4653 9.79828C21.1868 9.80118 20.8627 10.0522 20.8627 10.4204C20.862 13.2821 20.8627 16.1446 20.8627 19.0063C20.8627 19.6045 20.7587 19.7087 20.1647 19.7087C15.739 19.7087 11.5852 19.7087 7.15946 19.7087C6.59111 19.7087 6.47501 19.5901 6.47501 19.0085C6.47501 13.1939 6.47501 7.65272 6.47501 1.83813C6.47501 1.25725 6.59039 1.13934 7.15733 1.13934C11.6102 1.13934 15.7895 1.13934 20.2424 1.13934C20.7502 1.13934 20.862 1.25435 20.862 1.77664C20.862 4.09727 20.862 6.14445 20.8634 8.46508C20.8634 8.58082 20.8677 8.70308 20.904 8.81014C20.976 9.02354 21.2901 9.20511 21.5116 9.17183C21.7174 9.14073 21.966 8.93167 21.9902 8.71537C21.998 8.64376 21.9987 8.57142 21.9987 8.49908C21.9994 6.14228 22.0002 3.78621 21.9987 1.43014C21.998 0.690835 21.6512 0.198208 21.0208 0.035446C20.9104 0.00723388 20.7922 0.00144678 20.6783 0.00144678C16.1015 0 11.3032 0 6.72643 0C5.95295 0 5.40596 0.556285 5.39884 1.34695C5.39456 1.81426 5.39812 2.28156 5.39812 2.77925C4.85826 2.77925 4.56624 2.77274 4.05344 2.78287C3.86043 2.78649 3.65957 2.80313 3.47725 2.861C2.92384 3.03533 2.59622 3.52507 2.59123 4.16671C2.58554 4.86189 2.59337 5.55706 2.59337 6.25224C2.59337 11.4346 2.59337 16.6169 2.59551 21.7993C2.59551 22.0055 2.6012 22.2189 2.65106 22.4163C2.78567 22.9553 3.26714 23.33 3.82125 23.3538C3.93663 23.3589 4.16811 23.3582 4.16811 23.3582H14.8124C14.8124 23.3582 15.0374 23.3582 15.1749 23.3582C15.1749 23.8407 15.192 23.989 15.1678 24.4368C15.1549 24.6798 14.9833 24.8173 14.7354 24.8303C14.6735 24.8332 14.6108 24.8317 14.5488 24.8317C10.0789 24.8317 6.24425 24.8317 1.7736 24.8317C1.27931 24.8317 1.16108 24.7124 1.16108 24.2132C1.16108 18.3451 1.16108 6.90835 1.16108 6.90835C1.16108 6.90835 1.21735 6.38245 1.64824 6.28768C1.87687 6.23777 2.12829 6.04463 2.03214 5.66557C1.94667 5.35162 1.66819 5.28652 1.4246 5.28652C0.433184 5.28652 0.0870399 5.93106 0.0179539 6.52713C0.002285 6.66095 0.000862122 6.79767 0.000862122 6.93295C0.000150681 12.7924 0.000150681 18.6518 0.000862122 24.5113C0.000862122 25.3027 0.329199 25.7931 0.975189 25.9617C1.08487 25.9906 1.2031 25.9986 1.31706 25.9986C5.89384 26 10.4706 26.0007 15.0481 25.9993C15.8223 25.9993 16.3728 25.443 16.38 24.6567C16.3835 24.2349 16.38 23.8132 16.38 23.3625H16.3807Z" fill="black"/>
+                                                    <path d="M13.7995 13.1996C12.2796 13.1996 10.7597 13.1996 9.24055 13.1996C8.81037 13.1996 8.60026 13.3493 8.61094 13.6423C8.62163 13.923 8.83387 14.0684 9.23842 14.0684C12.2868 14.0684 15.3351 14.0684 18.3834 14.0669C18.4974 14.0669 18.617 14.0626 18.7246 14.0286C18.9283 13.9642 19.0202 13.8058 19.0009 13.5909C18.9817 13.3761 18.8606 13.2444 18.6505 13.2119C18.5458 13.196 18.4376 13.1996 18.3314 13.1996C16.8208 13.1996 15.3094 13.1996 13.7988 13.1996H13.7995Z" fill="black"/>
+                                                    <path d="M13.8294 16.0331C15.3564 16.0331 16.8834 16.0331 18.4104 16.0331C18.4902 16.0331 18.5728 16.0432 18.6497 16.0258C18.8748 15.9737 19.008 15.8348 19.0023 15.5889C18.9966 15.3437 18.8577 15.212 18.6298 15.1708C18.5692 15.1599 18.5058 15.1672 18.4439 15.1672C15.3542 15.1672 12.2646 15.1672 9.17495 15.1672C9.12153 15.1672 9.06812 15.1643 9.01541 15.1693C8.78892 15.1918 8.613 15.3798 8.61087 15.5961C8.60944 15.8095 8.78607 16.0048 9.00971 16.0294C9.08022 16.0374 9.15145 16.0323 9.22267 16.0323C10.7589 16.0323 12.2945 16.0323 13.8308 16.0323L13.8294 16.0331Z" fill="black"/>
+                                                    <path d="M13.8152 17.9964C15.3329 17.9964 16.8514 17.9964 18.3692 17.9964C18.4582 17.9964 18.5472 18 18.6348 17.9892C18.8464 17.9638 18.9738 17.8387 18.9995 17.6246C19.0258 17.4003 18.9347 17.2325 18.7167 17.1667C18.6085 17.1341 18.4902 17.1283 18.3763 17.1283C15.3315 17.1262 12.2867 17.1269 9.24197 17.1283C9.14511 17.1283 9.04539 17.1298 8.95209 17.1522C8.72204 17.2079 8.5974 17.3728 8.61877 17.605C8.64014 17.8336 8.77831 17.9819 9.02189 17.9928C9.11021 17.9964 9.19924 17.9964 9.28827 17.9964C10.7975 17.9964 12.3067 17.9964 13.8159 17.9964H13.8152Z" fill="black"/>
+                                                    <path d="M17.7679 20.5782C17.6497 20.5782 17.5272 20.5782 17.4225 20.5782C13.877 20.5782 10.4341 20.5782 6.88936 20.5782C5.88441 20.5782 5.37801 20.0668 5.37801 19.0512C5.37801 14.0504 5.37801 9.05034 5.37801 4.04956C5.37801 3.93382 5.37801 3.81808 5.37801 3.67702C4.75624 3.67702 4.66365 3.6611 4.06466 3.69149C3.95284 3.69727 3.82393 3.87378 3.752 3.99965C3.70072 4.09007 3.72636 4.22824 3.72636 4.34543C3.72564 10.1673 3.72564 15.7815 3.72636 21.6033C3.72636 21.6937 3.73348 21.7009 3.73348 21.7914C3.73348 22.2066 4.09102 22.2739 4.34386 22.2811C4.60168 22.2876 4.39727 22.2782 4.6551 22.2782C8.92918 22.2782 12.86 22.2782 17.1333 22.2782C17.6682 22.2782 17.7708 22.174 17.7715 21.6329C17.7715 21.2539 17.7701 21.0824 17.7686 20.7034C17.7686 20.6766 17.7686 20.6513 17.7686 20.579L17.7679 20.5782Z" fill="white"/>
+                                                    <path d="M16.7268 3.6748C17.1249 4.0799 17.501 4.46257 17.8613 4.82933C16.1783 6.5387 14.4861 8.25674 12.8138 9.95526C12.645 10.1267 12.3715 10.1267 12.2027 9.95526C11.3879 9.12698 10.5553 8.28061 9.7334 7.4451C10.0774 7.09426 10.457 6.70797 10.858 6.29926C11.1963 6.64503 11.5624 6.99805 11.905 7.37421C12.3857 7.90156 12.5859 7.88709 13.0702 7.38578C14.2268 6.18641 15.4042 5.00728 16.5729 3.82021C16.6221 3.77029 16.6755 3.72327 16.726 3.67553L16.7268 3.6748Z" fill="black"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_4585_1083">
+                                                        <rect width="22" height="26" fill="white" transform="matrix(-1 0 0 1 22 0)"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="text-2D2D2D fz-21 playfair-display-900 uk-text-uppercase">TIN CHUYÊN ĐỀ</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="home__box uk-card uk-card-body bg-F3FBFF uk-margin-top padding-20">
+                        <div class="uk-child-width-1-3@l uk-grid-small uk-grid-column-small uk-grid-row-medium" uk-grid>
+                            <?php
+                            $special_topics = array(
+                                    array(
+                                            'category' => 'CHĂM LO BẢO VỆ',
+                                            'image' => 'https://picsum.photos/800/600?random=10',
+                                            'title' => 'Công đoàn ngành Dệt May Hà Nội khảo sát an toàn vệ sinh lao động',
+                                            'related' => array(
+                                                    'Hội nghị người lao động Công ty TNHH May xuất khẩu Đại Nghĩa',
+                                                    'Đan Phượng: Tổng kết chương trình phối hợp giữa LĐLĐ...',
+                                                    'Giải pháp nâng cao chất lượng đối thoại, thương lượng...'
+                                            )
+                                    ),
+                                    array(
+                                            'category' => 'PHÁT TRIỂN ĐOÀN VIÊN',
+                                            'image' => 'https://picsum.photos/800/600?random=11',
+                                            'title' => 'Công đoàn các khu công nghiệp và chế xuất Hà Nội: Phát triển đoàn viên',
+                                            'related' => array(
+                                                    'Đẩy mạnh phát triển đoàn viên công đoàn năm 2024',
+                                                    'Tập huấn nghiệp vụ công tác phát triển đoàn viên',
+                                                    'Kết nạp mới 100 đoàn viên công đoàn'
+                                            )
+                                    ),
+                                    array(
+                                            'category' => 'THI ĐUA - KHEN THƯỞNG',
+                                            'image' => 'https://picsum.photos/800/600?random=12',
+                                            'title' => 'Tổng kết phong trào thi đua và công tác khen thưởng năm 2024',
+                                            'related' => array(
+                                                    'Phát động phong trào thi đua năm 2024',
+                                                    'Khen thưởng các tập thể, cá nhân có thành tích xuất sắc',
+                                                    'Đổi mới phong trào thi đua yêu nước'
+                                            )
+                                    ),
+                                    array(
+                                            'category' => 'HOẠT ĐỘNG XÃ HỘI',
+                                            'image' => 'https://picsum.photos/800/600?random=13',
+                                            'title' => 'Tổ chức các hoạt động từ thiện và an sinh xã hội năm 2024',
+                                            'related' => array(
+                                                    'Thăm hỏi công nhân có hoàn cảnh khó khăn',
+                                                    'Tổ chức chương trình "Tết sum vầy"',
+                                                    'Hỗ trợ xây dựng nhà tình nghĩa'
+                                            )
+                                    ),
+                                    array(
+                                            'category' => 'GIÁO DỤC ĐÀO TẠO',
+                                            'image' => 'https://picsum.photos/800/600?random=14',
+                                            'title' => 'Đẩy mạnh công tác đào tạo, bồi dưỡng cán bộ công đoàn',
+                                            'related' => array(
+                                                    'Tập huấn nghiệp vụ công tác công đoàn',
+                                                    'Bồi dưỡng kỹ năng hoạt động công đoàn',
+                                                    'Nâng cao trình độ cho cán bộ công đoàn'
+                                            )
+                                    ),
+                                    array(
+                                            'category' => 'HOẠT ĐỘNG NỮ CÔNG',
+                                            'image' => 'https://picsum.photos/800/600?random=15',
+                                            'title' => 'Đẩy mạnh các hoạt động vì sự tiến bộ của phụ nữ',
+                                            'related' => array(
+                                                    'Tổ chức các hoạt động kỷ niệm ngày Phụ nữ Việt Nam',
+                                                    'Tuyên dương nữ CNVCLĐ tiêu biểu',
+                                                    'Chăm lo đời sống nữ công nhân viên chức lao động'
+                                            )
+                                    )
+                            );
+                            foreach ($special_topics as $topic): ?>
+                                <div>
+                                    <div class="barlow-bold text-068BDB lh-125"><?php echo $topic['category']; ?></div>
+                                    <div class="bg-FFF uk-border-rounded padding-12 item-9px">
+                                        <div class="uk-cover-container uk-border-rounded">
+                                            <img src="<?php echo $topic['image']; ?>" alt="" uk-cover="">
+                                            <canvas width="258" height="157"></canvas>
+                                        </div>
+                                        <div class="item-13px">
+                                            <h4 class="text-484554 barlow-medium lh-125 fz-16"><a href=""
+                                                                                                  class="uk-link-toggle"><?php echo $topic['title']; ?></a>
+                                            </h4>
+                                        </div>
+                                        <ul class="uk-list uk-list-bullet text-555 fz-14">
+                                            <?php foreach ($topic['related'] as $related): ?>
+                                                <li><a href="" class="uk-link-toggle"><?php echo $related; ?></a></li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="uk-width-1-4@l">
-                <div class="uk-card uk-card-body uk-card-primary"></div>
+                <div class="padding-20 uk-border-rounded uk-text-center item-20px home__sidebar__box1" style="--path-to-image: url('images/Rectangle248.png');">
+                    <img src="images/logo_31.png" alt="">
+                    <div class="uk-text-uppercase barlow-extrabold text-2756A6 item-9px">THÔNG TIN ĐIỆN TỬ LIÊN ĐOÀN LAO ĐỘNG TỈNH PHÚ THỌ</div>
+                </div>
+                <div class="item-20px home__sidebar__box2 uk-border-rounded padding-12">
+                    <h3 class="home__sidebar__title uk-text-center uk-text-uppercase fz-20 playfair-display-900 text-E81C0F">thông báo</h3>
+                    <ul class="uk-list home__sidebar__list uk-list-bullet">
+                        <?php
+                        $notifications = array(
+                                'Kế hoạch về "Truyền thông công đoàn" giai đoạn 2023-2028',
+                                'Thông báo về việc tổ chức Hội nghị sơ kết 6 tháng đầu năm 2025',
+                                'Quyết định về việc ban hành quy chế làm việc của Ban Chấp hành',
+                                'Hướng dẫn tổ chức các hoạt động kỷ niệm 96 năm ngày thành lập',
+                                'Kế hoạch tổ chức Tháng Công nhân năm 2025',
+                                'Thông báo về việc nghỉ lễ Quốc khánh 2/9/2025',
+                                'Kế hoạch tổ chức Hội thi An toàn vệ sinh viên giỏi năm 2025',
+                                'Thông báo về việc tổ chức Đại hội Công đoàn các cấp',
+                                'Hướng dẫn thực hiện chế độ thông tin báo cáo công đoàn'
+                        );
+                        foreach ($notifications as $notification): ?>
+                            <li><a href="" class="uk-link-toggle"><?php echo $notification; ?></a></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
