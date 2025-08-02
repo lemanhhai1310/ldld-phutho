@@ -47,6 +47,9 @@
                             <img class="uk-transition-scale-up uk-transition-opaque" src="images/dark.jpg" alt=""
                                  uk-cover="">
                             <canvas width="380" height="221"></canvas>
+                            <div class="uk-position-center uk-light">
+                                <span class="uk-transition-scale-up uk-transition-opaque" uk-icon="icon: image; ratio: 1.5"></span>
+                            </div>
                             <a href="" class="uk-position-cover"></a>
                         </div>
                         <div class="item-15px"><a href="" class="uk-link-toggle">Lễ đón nhận huân chương độc lập hạng

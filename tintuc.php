@@ -18,10 +18,10 @@
 </div>
 <div class="uk-section-small">
     <div class="uk-container">
-        <div class="uk-grid-collapse uk-grid-match" uk-grid>
+        <div class="uk-grid-collapse uk-grid-match uk-transition-toggle" uk-grid>
             <div class="uk-width-1-2@l">
                 <div class="uk-cover-container">
-                    <img src="https://picsum.photos/800/600?random=10" alt="" uk-cover="">
+                    <img class="uk-transition-scale-up uk-transition-opaque" src="https://picsum.photos/800/600?random=10" alt="" uk-cover="">
                     <canvas width="567" height="378"></canvas>
                 </div>
             </div>
@@ -76,11 +76,11 @@
                 );
                 ?>
                 <?php foreach ($news as $item): ?>
-                    <div class="tintuc__item">
+                    <div class="tintuc__item uk-transition-toggle">
                         <div class="uk-grid-small uk-grid-24-l" uk-grid>
                             <div class="uk-width-1-3@l">
                                 <div class="uk-cover-container uk-border-rounded">
-                                    <img src="<?php echo $item['image']; ?>" alt="" uk-cover="">
+                                    <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $item['image']; ?>" alt="" uk-cover="">
                                     <canvas width="330" height="199"></canvas>
                                 </div>
                             </div>

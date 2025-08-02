@@ -2317,6 +2317,13 @@
 .header__navbarContainer .uk-navbar-dropdown-nav > li > a:hover {
   background: #E5E5E5;
 }
+.header__navbarContainer .uk-navbar-nav > li > a[aria-expanded=true], .header__navbarContainer .uk-navbar-nav > li > a:hover {
+  color: #FFCB2A;
+}
+.header__navbarContainer .uk-navbar-nav > li.uk-active > a {
+  color: #FFCB2A;
+}
+
 .footer__navbarContainer:not(.uk-navbar-transparent) {
   background: #2756A6;
 }

@@ -38,7 +38,7 @@
                         <img class="uk-transition-scale-up uk-transition-opaque" src="images/slider1.jpeg" alt="" uk-cover="">
                         <canvas width="380" height="221"></canvas>
                         <div class="uk-position-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                            <svg class="uk-transition-scale-up uk-transition-opaque" xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
                                 <circle cx="19.5" cy="19.5" r="19" fill="#C4C4C4" fill-opacity="0.58" stroke="white"/>
                                 <path d="M27.6777 19.5001L15.4116 26.5819L15.4116 12.4182L27.6777 19.5001Z" fill="white"/>
                             </svg>

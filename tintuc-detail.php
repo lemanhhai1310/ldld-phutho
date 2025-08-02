@@ -127,9 +127,9 @@
                     )
             );
             foreach ($news as $item): ?>
-                <div>
+                <div class="uk-transition-toggle">
                     <div class="uk-cover-container">
-                        <img src="<?= $item['img'] ?>" alt="<?= $item['title'] ?>" uk-cover="">
+                        <img class="uk-transition-scale-up uk-transition-opaque" src="<?= $item['img'] ?>" alt="<?= $item['title'] ?>" uk-cover="">
                         <canvas width="276" height="189"></canvas>
                     </div>
                     <div class="item-15px barlow-medium text-2D2D2D"><a href=""

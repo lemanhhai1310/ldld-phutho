@@ -198,7 +198,7 @@
                             <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
                             <li>
                                 <a href="#">GIỚI THIỆU</a>
-                                <div class="uk-navbar-dropdown">
+                                <div class="uk-navbar-dropdown" uk-dropdown="offset: 1">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
                                         <li><a href="#">Giới thiệu chung</a></li>
                                         <li><a href="#">Cơ cấu tổ chức</a></li>

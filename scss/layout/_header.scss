@@ -57,6 +57,15 @@
           @extend .text-FFF;
           @extend .barlow-bold;
           @extend .header__navbarContainer__item;
+          &[aria-expanded="true"],
+          &:hover{
+            color: #FFCB2A;
+          }
+        }
+        &.uk-active{
+          >a{
+            color: #FFCB2A;
+          }
         }
       }
     }
