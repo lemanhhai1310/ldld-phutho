@@ -27,7 +27,7 @@
             </div>
             <div class="uk-width-expand">
                 <div class="uk-card uk-card-body bg-068BDB uk-light">
-                    <h3 class="fz-29 barlow-bold"><a href="" class="uk-link-toggle">Đồng chí Hà Đức Quảng là Chủ tịch LĐLĐ tỉnh Phú Thọ từ 1.7.2025</a></h3>
+                    <h3 class="fz-29 barlow-bold"><a href="tintuc-detail.php" class="uk-link-toggle">Đồng chí Hà Đức Quảng là Chủ tịch LĐLĐ tỉnh Phú Thọ từ 1.7.2025</a></h3>
                     <div class="item-23px fz-18 text-FFCB2A">04/07/2025</div>
                     <div class="item-28px fz-18">Theo Quyết định của Đoàn Chủ tịch Tổng LĐLĐVN, từ ngày 1.7.2025, đồng chí Hà Đức Quảng được chỉ định làm Chủ tịch LĐLĐ tỉnh Phú Thọ (mới), nhiệm kỳ 2023-2028, từ ngày 1.7.2025.</div>
                 </div>
@@ -85,7 +85,7 @@
                                 </div>
                             </div>
                             <div class="uk-width-expand">
-                                <h3 class="fz-20 barlow-medium text-555 uk-text-justify"><a href=""
+                                <h3 class="fz-20 barlow-medium text-555 uk-text-justify"><a href="tintuc-detail.php"
                                                                                             class="uk-link-toggle"><?php echo $item['title']; ?></a>
                                 </h3>
                                 <div class="text-3777BC"><?php echo $item['date']; ?></div>
