@@ -1,0 +1,32 @@
+.tintuc{
+  &__item{
+    $x:28px;
+    padding-bottom: #{$x};
+    margin-bottom: #{$x};
+    border-bottom: 1px solid #EDEDED;
+  }
+  &__pagination{
+    >*{
+      &:nth-child(n+2){
+        margin-left: 8px;
+      }
+      >*{
+        $x: 32px;
+        width: #{$x};
+        height: #{$x};
+        @extend .fz-20;
+        background-color: #EDEDED;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &.uk-active{
+        >*{
+          background-color: #068BDB;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

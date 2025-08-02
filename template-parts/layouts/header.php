@@ -210,8 +210,8 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="#">TIN TỨC - SỰ KIỆN</a></li>
-                            <li><a href="#">TƯ VẤN PHÁP LUẬT</a></li>
+                            <li><a href="tintuc.php">TIN TỨC - SỰ KIỆN</a></li>
+                            <li><a href="tuvanphapluat.php">TƯ VẤN PHÁP LUẬT</a></li>
                             <li><a href="#">CƠ SỞ DỮ LIỆU ĐIỆN TỬ</a></li>
                             <li><a href="#">NGHIỆP VỤ PHÒNG - BAN</a></li>
                             <li><a href="#">LIÊN HỆ</a></li>

@@ -1,0 +1,27 @@
+.tuvanphapluat {
+  &__breadcrumb{
+    &__overlay{
+      opacity: 0.71;
+      background: var(--path-to-image) lightgray -28.02px -194.32px / 103.88% 543.509% no-repeat;
+      mix-blend-mode: soft-light;
+    }
+    >*{
+      >*{
+        @extend .fz-16;
+      }
+      &:nth-child(n+2){
+        &:not(.uk-first-column){
+          &:before{
+            $x: 10px;
+            margin: 0 #{$x};
+          }
+        }
+      }
+      &:last-child{
+        >span{
+          @extend .barlow-bold;
+        }
+      }
+    }
+  }
+}
