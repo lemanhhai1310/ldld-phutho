@@ -610,9 +610,20 @@
                 </div>
             </div>
             <div class="uk-width-1-4@l">
-                <div class="padding-20 uk-border-rounded uk-text-center item-20px home__sidebar__box1" style="--path-to-image: url('images/Rectangle248.png');">
-                    <img src="images/logo_31.png" alt="">
-                    <div class="uk-text-uppercase barlow-extrabold text-2756A6 item-9px">THÔNG TIN ĐIỆN TỬ LIÊN ĐOÀN LAO ĐỘNG TỈNH PHÚ THỌ</div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g1.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g2.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g3.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g4.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g5.png" alt=""></a>
                 </div>
                 <div class="item-20px home__sidebar__box2 uk-border-rounded padding-12">
                     <h3 class="home__sidebar__title uk-text-center uk-text-uppercase fz-20 playfair-display-900 text-E81C0F">thông báo</h3>
@@ -633,6 +644,24 @@
                             <li><a href="" class="uk-link-toggle"><?php echo $notification; ?></a></li>
                         <?php endforeach; ?>
                     </ul>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g6.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g7.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g8.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g9.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g10.png" alt=""></a>
+                </div>
+                <div class="item-20px">
+                    <a href=""><img class="uk-width" src="images/g11.png" alt=""></a>
                 </div>
                 <div class="item-20px home__boxThongke padding-12">
                     <div class="uk-text-uppercase home__boxThongke__title barlow-bold text-2756A6">thống kê TRUY CẬP</div>
