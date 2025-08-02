@@ -635,7 +635,7 @@
   font-size: 0.9375rem;
 }
 
-.fz-16, .tuvanphapluat__breadcrumb > * > *, .home__sidebar__list > li > a, .footer__navbarContainer .uk-navbar-nav > li > a, .header__navbarContainer .uk-navbar-nav > li > a {
+.fz-16, .vanbanphapluat__form__input, .vanbanphapluat__form__btnSelect, .tuvanphapluat__breadcrumb > * > *, .home__sidebar__list > li > a, .footer__navbarContainer .uk-navbar-nav > li > a, .header__navbarContainer .uk-navbar-nav > li > a {
   font-size: 1rem;
 }
 
@@ -897,7 +897,7 @@
   color: #181818;
 }
 
-.text-484554 {
+.text-484554, .vanbanphapluat__form__input, .vanbanphapluat__form__btnSelect {
   color: #484554;
 }
 
@@ -1115,6 +1115,10 @@
 
 .bg-D7EBFD {
   background: #D7EBFD;
+}
+
+.bg-FFCB2A {
+  background: #FFCB2A;
 }
 
 .bgc-C1E0FB {
@@ -2455,6 +2459,12 @@
 
 .thuvienhinhanh__overlay1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.vanbanphapluat__form__btnSelect {
+  text-align: left;
+  padding: 0 10px;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
