@@ -175,7 +175,7 @@
                                                 <path d="M25.1133 17.6309L13.9839 24.034L13.9839 11.2279L25.1133 17.6309Z" fill="white"/>
                                             </svg>
                                         </div>
-                                        <a href="" class="uk-position-cover"></a>
+                                        <a href="#modal-media-youtube" uk-toggle class="uk-position-cover"></a>
                                     </div>
                                     <div class="text-2D2D2D item-15px"><a href=""
                                                                           class="uk-link-toggle"><?php echo $video['title']; ?></a>
@@ -222,17 +222,19 @@
                                     )
                             );
                             foreach ($gallery_items as $gallery): ?>
-                                <div class="uk-transition-toggle">
+                                <div class="uk-transition-toggle" uk-lightbox="animation: slide">
                                     <div class="uk-cover-container">
                                         <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $gallery['image']; ?>" alt="" uk-cover="">
                                         <canvas width="264" height="160"></canvas>
                                         <div class="uk-position-center uk-light">
                                             <span class="uk-transition-scale-up uk-transition-opaque" uk-icon="icon: image; ratio: 1.5"></span>
                                         </div>
-                                        <a href="" class="uk-position-cover"></a>
+                                        <!--image lightbox-->
+                                        <a href="images/slider1.jpeg" class="uk-position-cover" data-caption="Caption 1"></a>
+                                        <a href="images/slider2.jpeg" class="uk-position-cover" data-caption="Caption 1"></a>
+                                        <a href="images/slider3.jpeg" class="uk-position-cover" data-caption="Caption 1"></a>
                                     </div>
-                                    <div class="text-2D2D2D item-15px"><a href=""
-                                                                          class="uk-link-toggle"><?php echo $gallery['title']; ?></a>
+                                    <div class="text-2D2D2D item-15px"><?php echo $gallery['title']; ?></a>
                                     </div>
                                 </div>
                             <?php endforeach; ?>
@@ -665,5 +667,12 @@
         </div>
     </div>
 </div>
+
+    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080" loading="lazy" uk-video uk-responsive></iframe>
+        </div>
+    </div>
 
 <?php require "template-parts/layouts/footer.php"; ?>
