@@ -1,4 +1,13 @@
 .tuvanphapluat {
+  &__box1{
+    min-height: 64px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
   &__breadcrumb{
     &__overlay{
       opacity: 0.71;

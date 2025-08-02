@@ -1109,6 +1109,14 @@
   background: #068BDB;
 }
 
+.bg-F9F9F9 {
+  background: #F9F9F9;
+}
+
+.bg-D7EBFD {
+  background: #D7EBFD;
+}
+
 .bgc-C1E0FB {
   background-color: #C1E0FB;
 }
@@ -2380,6 +2388,15 @@
   text-align: center;
 }
 
+.tuvanphapluat__box1 {
+  min-height: 64px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
 .tuvanphapluat__breadcrumb__overlay {
   opacity: 0.71;
   background: var(--path-to-image) lightgray -28.02px -194.32px/103.88% 543.509% no-repeat;
