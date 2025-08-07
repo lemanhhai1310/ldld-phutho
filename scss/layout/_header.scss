@@ -23,6 +23,45 @@
       }
     }
   }
+  &__offcanvas{
+    &__bar{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &__nav{
+      .uk-nav-sub{
+        padding-left: 0;
+        >li{
+          border-top: 1px solid #EDEDED;
+          &:nth-child(n+2){
+
+          }
+          >a{
+            @extend .fz-15;
+            @extend .barlow-medium;
+            @extend .text-555;
+            padding: 8px 20px;
+          }
+        }
+      }
+      >li{
+        &:nth-child(n+2){
+          border-top: 1px solid #EDEDED;
+        }
+        >a{
+          @extend .fz-16;
+          //@extend .text-FFF;
+          @extend .barlow-bold;
+          //@extend .header__navbarContainer__item;
+          padding: 8px 12px;
+          &[aria-expanded="true"],
+          &:hover{
+            //color: #FFCB2A;
+          }
+        }
+      }
+    }
+  }
   &__navbarContainer{
     &:not(.uk-navbar-transparent){
       background: #068BDB;

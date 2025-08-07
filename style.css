@@ -23,7 +23,7 @@
   font-style: normal;
 }
 
-.barlow-medium, .home__sidebar__list > li > a, .header__navbarContainer .uk-navbar-dropdown-nav > li > a {
+.barlow-medium, .home__sidebar__list > li > a, .header__navbarContainer .uk-navbar-dropdown-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a {
   font-family: "Barlow", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -35,7 +35,7 @@
   font-style: normal;
 }
 
-.barlow-bold, .tuvanphapluat__breadcrumb > *:last-child > span, .home__table tr th, .footer__navbarContainer .uk-navbar-nav > li > a, .header__navbarContainer .uk-navbar-nav > li > a {
+.barlow-bold, .tuvanphapluat__breadcrumb > *:last-child > span, .home__table tr th, .footer__navbarContainer .uk-navbar-nav > li > a, .header__navbarContainer .uk-navbar-nav > li > a, .header__offcanvas__nav > li > a {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -631,11 +631,11 @@
   font-size: 0.875rem;
 }
 
-.fz-15, .home__table tr th, .header__navbarContainer .uk-navbar-dropdown-nav > li > a, .header__top__subnav > * > *:first-child {
+.fz-15, .home__table tr th, .header__navbarContainer .uk-navbar-dropdown-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a, .header__top__subnav > * > *:first-child {
   font-size: 0.9375rem;
 }
 
-.fz-16, .vanbanphapluat__form__input, .vanbanphapluat__form__btnSelect, .tuvanphapluat__breadcrumb > * > *, .home__sidebar__list > li > a, .footer__navbarContainer .uk-navbar-nav > li > a, .header__navbarContainer .uk-navbar-nav > li > a {
+.fz-16, .vanbanphapluat__form__input, .vanbanphapluat__form__btnSelect, .tuvanphapluat__breadcrumb > * > *, .home__sidebar__list > li > a, .footer__navbarContainer .uk-navbar-nav > li > a, .header__navbarContainer .uk-navbar-nav > li > a, .header__offcanvas__nav > li > a {
   font-size: 1rem;
 }
 
@@ -861,7 +861,7 @@
   color: white;
 }
 
-.text-555, .header__navbarContainer .uk-navbar-dropdown-nav > li > a {
+.text-555, .header__navbarContainer .uk-navbar-dropdown-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a {
   color: #555555;
 }
 
@@ -2301,6 +2301,25 @@
   .header__top__logo img {
     width: 117px !important;
   }
+}
+.header__offcanvas__bar {
+  padding-left: 0;
+  padding-right: 0;
+}
+.header__offcanvas__nav .uk-nav-sub {
+  padding-left: 0;
+}
+.header__offcanvas__nav .uk-nav-sub > li {
+  border-top: 1px solid #EDEDED;
+}
+.header__offcanvas__nav .uk-nav-sub > li > a {
+  padding: 8px 20px;
+}
+.header__offcanvas__nav > li:nth-child(n+2) {
+  border-top: 1px solid #EDEDED;
+}
+.header__offcanvas__nav > li > a {
+  padding: 8px 12px;
 }
 .header__navbarContainer:not(.uk-navbar-transparent) {
   background: #068BDB;
