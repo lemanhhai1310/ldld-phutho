@@ -698,7 +698,7 @@
 </div>
 
     <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
-        <div class="uk-modal-dialog uk-margin-auto-vertical">
+        <div class="uk-modal-dialog uk-margin-auto-vertical width-810px">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
             <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080" loading="lazy" uk-video uk-responsive></iframe>
         </div>
