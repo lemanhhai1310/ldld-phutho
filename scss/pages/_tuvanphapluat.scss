@@ -33,4 +33,13 @@
       }
     }
   }
+  &__accordion{
+    &__title{
+      padding: 12px 0px;
+    }
+    &__content{
+      padding: 15px;
+      margin: 0;
+    }
+  }
 }
