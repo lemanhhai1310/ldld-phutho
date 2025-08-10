@@ -43,14 +43,17 @@
             <?php for ($i = 0; $i < 9; $i++): ?>
                 <div>
                     <div class=" uk-transition-toggle">
-                        <div class="uk-cover-container uk-border-rounded">
+                        <div class="uk-cover-container uk-border-rounded" uk-lightbox="animation: slide;">
                             <img class="uk-transition-scale-up uk-transition-opaque" src="images/dark.jpg" alt=""
                                  uk-cover="">
                             <canvas width="380" height="221"></canvas>
                             <div class="uk-position-center uk-light">
                                 <span class="uk-transition-scale-up uk-transition-opaque" uk-icon="icon: image; ratio: 1.5"></span>
                             </div>
-                            <a href="" class="uk-position-cover"></a>
+                            <!--image lightbox-->
+                            <a href="images/slider1.jpeg" class="uk-position-cover uk-position-z-index" data-caption="Caption 1"></a>
+                            <a href="images/slider2.jpeg" class="uk-position-cover" data-caption="Caption 2"></a>
+                            <a href="images/slider3.jpeg" class="uk-position-cover" data-caption="Caption 3"></a>
                         </div>
                         <div class="item-15px"><a href="" class="uk-link-toggle">Lễ đón nhận huân chương độc lập hạng
                                 nhì và kỷ niệm 85 năm công đoàn Việt Mam</a></div>

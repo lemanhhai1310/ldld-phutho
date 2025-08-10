@@ -222,17 +222,17 @@
                                     )
                             );
                             foreach ($gallery_items as $gallery): ?>
-                                <div class="uk-transition-toggle" uk-lightbox="animation: slide">
-                                    <div class="uk-cover-container">
+                                <div class="uk-transition-toggle">
+                                    <div class="uk-cover-container" uk-lightbox="animation: slide;">
                                         <img class="uk-transition-scale-up uk-transition-opaque" src="<?php echo $gallery['image']; ?>" alt="" uk-cover="">
                                         <canvas width="264" height="160"></canvas>
                                         <div class="uk-position-center uk-light">
                                             <span class="uk-transition-scale-up uk-transition-opaque" uk-icon="icon: image; ratio: 1.5"></span>
                                         </div>
                                         <!--image lightbox-->
-                                        <a href="images/slider1.jpeg" class="uk-position-cover" data-caption="Caption 1"></a>
-                                        <a href="images/slider2.jpeg" class="uk-position-cover" data-caption="Caption 1"></a>
-                                        <a href="images/slider3.jpeg" class="uk-position-cover" data-caption="Caption 1"></a>
+                                        <a href="images/slider1.jpeg" class="uk-position-cover uk-position-z-index" data-caption="Caption 1"></a>
+                                        <a href="images/slider2.jpeg" class="uk-position-cover" data-caption="Caption 2"></a>
+                                        <a href="images/slider3.jpeg" class="uk-position-cover" data-caption="Caption 3"></a>
                                     </div>
                                     <div class="text-2D2D2D item-15px"><?php echo $gallery['title']; ?></a>
                                     </div>
