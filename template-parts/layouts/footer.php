@@ -1,31 +1,31 @@
 <div class="uk-section-small">
     <div class="uk-container uk-container-expand">
         <div class="uk-position-relative uk-visible-toggle item-51px" tabindex="-1"
-             uk-slider="center: true; autoplay: true; pauseOnHover: false; autoplayInterval: 3000">
+             uk-slider="center: false; autoplay: false; pauseOnHover: false; autoplayInterval: 3000">
 
-            <div class="uk-slider-items uk-child-width-auto uk-grid uk-grid-small" uk-grid>
+            <div class="uk-slider-items uk-child-width-auto uk-grid uk-grid-small uk-flex-center" uk-grid>
                 <?php
                 $domains = [
                         'amazon.com',
                         'google.com',
-                        'facebook.com',
-                        'microsoft.com',
-                        'apple.com',
-                        'netflix.com',
-                        'twitter.com',
-                        'instagram.com',
-                        'linkedin.com',
-                        'spotify.com',
-                        'adobe.com',
-                        'salesforce.com',
-                        'intel.com',
-                        'ibm.com',
-                        'oracle.com',
-                        'samsung.com',
-                        'sony.com',
-                        'nvidia.com',
-                        'cisco.com',
-                        'hp.com'
+//                        'facebook.com',
+//                        'microsoft.com',
+//                        'apple.com',
+//                        'netflix.com',
+//                        'twitter.com',
+//                        'instagram.com',
+//                        'linkedin.com',
+//                        'spotify.com',
+//                        'adobe.com',
+//                        'salesforce.com',
+//                        'intel.com',
+//                        'ibm.com',
+//                        'oracle.com',
+//                        'samsung.com',
+//                        'sony.com',
+//                        'nvidia.com',
+//                        'cisco.com',
+//                        'hp.com'
                 ];
                 foreach ($domains as $domain): ?>
                     <div>
