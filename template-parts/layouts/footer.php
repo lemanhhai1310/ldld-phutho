@@ -1,3 +1,52 @@
+<div class="uk-section-small">
+    <div class="uk-container uk-container-expand">
+        <div class="uk-position-relative uk-visible-toggle item-51px" tabindex="-1"
+             uk-slider="center: true; autoplay: true; pauseOnHover: false; autoplayInterval: 3000">
+
+            <div class="uk-slider-items uk-child-width-auto uk-grid uk-grid-small" uk-grid>
+                <?php
+                $domains = [
+                        'amazon.com',
+                        'google.com',
+                        'facebook.com',
+                        'microsoft.com',
+                        'apple.com',
+                        'netflix.com',
+                        'twitter.com',
+                        'instagram.com',
+                        'linkedin.com',
+                        'spotify.com',
+                        'adobe.com',
+                        'salesforce.com',
+                        'intel.com',
+                        'ibm.com',
+                        'oracle.com',
+                        'samsung.com',
+                        'sony.com',
+                        'nvidia.com',
+                        'cisco.com',
+                        'hp.com'
+                ];
+                foreach ($domains as $domain): ?>
+                    <div>
+                        <div class="uk-cover-container uk-background-default rounded-10px">
+                            <div class="uk-position-cover uk-flex uk-flex-middle uk-flex-center padding-10">
+                                <img class="uk-responsive-height"
+                                     data-src="https://img.logo.dev/<?= $domain ?>?token=pk_MSCFV2IwQtS8u3CVawIOqA&retina=true"
+                                     alt="" uk-img>
+                            </div>
+                            <canvas width="187" height="83"></canvas>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+
+        </div>
+    </div>
+</div>
 <footer class="footer bgc-C1E0FB uk-background-cover" data-src="images/bg_f.png" uk-img>
     <nav class="footer__navbarContainer uk-navbar-container uk-visible@l uk-light">
         <div class="uk-container">
