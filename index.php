@@ -1,7 +1,7 @@
 <?php $data["title"] = "Home"; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
-<div uk-slideshow="animation: push;ratio: 1366:412;">
+<div uk-slideshow="animation: push;ratio: 1366:412;min-height: 412; max-height: 600">
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
