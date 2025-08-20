@@ -5,9 +5,9 @@
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
-        <div class="uk-slideshow-items">
+        <div class="uk-slideshow-items" uk-height-viewport="min: 300;offset-top: true;">
             <div>
-                <img src="images/image_207.png" alt="" uk-cover>
+                <img src="https://document-ld.congnghetht.com.vn/Picture/d4666d21-3707-4f5d-890e-31f7234a039d.png" alt="" uk-cover>
             </div>
             <div>
                 <img src="images/image_207.png" alt="" uk-cover>
@@ -85,6 +85,11 @@
                             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden"></ul>
 
                         </div>
+                        <ul class="uk-list uk-list-bullet text-555 fz-14">
+                            <li><a href="" class="uk-link-toggle">Hội nghị người lao động Công ty TNHH May xuất khẩu Đại Nghĩa</a></li>
+                            <li><a href="" class="uk-link-toggle">Đan Phượng: Tổng kết chương trình phối hợp giữa LĐLĐ...</a></li>
+                            <li><a href="" class="uk-link-toggle">Giải pháp nâng cao chất lượng đối thoại, thương lượng...</a></li>
+                        </ul>
                     </div>
                     <div class="uk-width-1-3@l uk-flex-first@l">
                         <?php
