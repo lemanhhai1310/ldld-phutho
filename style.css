@@ -23,7 +23,7 @@
   font-style: normal;
 }
 
-.barlow-medium, .home__sidebar__list > li > a, .header__navbarContainer .uk-navbar-dropdown-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a {
+.barlow-medium, .home__sidebar__list > li > a, .header__navbarContainer .uk-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a {
   font-family: "Barlow", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -631,7 +631,7 @@
   font-size: 0.875rem;
 }
 
-.fz-15, .home__table tr th, .header__navbarContainer .uk-navbar-dropdown-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a, .header__top__subnav > * > *:first-child {
+.fz-15, .home__table tr th, .header__navbarContainer .uk-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a, .header__top__subnav > * > *:first-child {
   font-size: 0.9375rem;
 }
 
@@ -861,7 +861,7 @@
   color: white;
 }
 
-.text-555, .header__navbarContainer .uk-navbar-dropdown-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a {
+.text-555, .header__navbarContainer .uk-nav > li > a, .header__offcanvas__nav .uk-nav-sub > li > a {
   color: #555555;
 }
 
@@ -2294,7 +2294,7 @@
 }
 @media screen and (min-width: 640px) {
   .header__top__logo img {
-    width: calc(80px + 37 * ((100vw - 640px) / 560)) !important;
+    width: calc(80px + 37 * (100vw - 640px) / 560) !important;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2334,10 +2334,41 @@
   padding: 0;
   border-top: 2px solid #FFCB2A;
 }
-.header__navbarContainer .uk-navbar-dropdown-nav > li > a {
-  padding: 10px 12px;
+.header__navbarContainer .uk-nav > li:nth-child(n+2) > a:after {
+  content: "";
+  display: block;
+  width: calc(100% - 30px);
+  height: 1px;
+  background-color: #d2d2d2;
+  opacity: 0.5;
+  right: 15px;
+  left: 15px;
+  position: absolute;
+  top: 0;
 }
-.header__navbarContainer .uk-navbar-dropdown-nav > li > a:hover {
+.header__navbarContainer .uk-nav > li > a {
+  padding: 10px 12px;
+  position: relative;
+}
+.header__navbarContainer .uk-nav > li > a[aria-expanded=true] {
+  background: #E5E5E5;
+}
+.header__navbarContainer .uk-nav > li > a[aria-expanded]:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 10px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' aria-hidden='true'%3E%3Cpolyline fill='none' stroke='%23000' stroke-width='1.03' points='7 4 13 10 7 16'%3E%3C/polyline%3E%3C/svg%3E");
+}
+.header__navbarContainer .uk-nav > li > a:hover {
   background: #E5E5E5;
 }
 .header__navbarContainer .uk-navbar-nav > li > a[aria-expanded=true], .header__navbarContainer .uk-navbar-nav > li > a:hover {
@@ -2408,7 +2439,8 @@
 .home__sidebar__title:before, .home__sidebar__title:after {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   content: "";
   width: 40px;
   height: 4px;
@@ -2440,9 +2472,15 @@
 .tuvanphapluat__box1 {
   min-height: 64px;
   padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
@@ -2475,9 +2513,15 @@
   height: 32px;
   background-color: #EDEDED;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .tintuc__pagination > *.uk-active > * {
   background-color: #068BDB;
@@ -2485,6 +2529,7 @@
 }
 
 .thuvienhinhanh__overlay1 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4)));
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
 }
 
@@ -2493,5 +2538,3 @@
   padding: 0 10px;
   position: relative;
 }
-
-/*# sourceMappingURL=style.css.map */

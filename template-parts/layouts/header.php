@@ -202,7 +202,18 @@
                                 <div class="uk-navbar-dropdown" uk-dropdown="offset: 1">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
                                         <li><a href="#">Giới thiệu chung</a></li>
-                                        <li><a href="#">Cơ cấu tổ chức</a></li>
+                                        <li>
+                                            <a href="#">Cơ cấu tổ chức</a>
+                                            <div class="uk-padding-remove" uk-dropdown="pos: right-top; animation: uk-animation-slide-bottom-small; duration: 300">
+                                                <ul class="uk-nav uk-dropdown-nav">
+                                                    <li><a href="#">Tin mới</a></li>
+                                                    <li><a href="#">Câu chuyện văn hóa</a></li>
+                                                    <li><a href="#">Văn hóa EVNSPC với Khách hàng</a></li>
+                                                    <li><a href="#">Gương điển hình</a></li>
+                                                    <li><a href="#">Sự kiện văn hóa</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
                                         <li><a href="#">Liên đoàn lao động tỉnh</a></li>
                                         <li><a href="#">LĐLĐ Huyện – Thành – Thị</a></li>
                                         <li><a href="#">Công đoàn ngành</a></li>
