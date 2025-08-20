@@ -204,7 +204,7 @@
                                         <li><a href="#">Giới thiệu chung</a></li>
                                         <li>
                                             <a href="#">Cơ cấu tổ chức</a>
-                                            <div class="uk-padding-remove" uk-dropdown="pos: right-top; animation: uk-animation-slide-bottom-small; duration: 300">
+                                            <div class="uk-padding-remove" uk-dropdown="pos: right-top; animation: uk-animation-slide-bottom-small; duration: 300;offset: 1;">
                                                 <ul class="uk-nav uk-dropdown-nav">
                                                     <li><a href="#">Tin mới</a></li>
                                                     <li><a href="#">Câu chuyện văn hóa</a></li>
