@@ -1,11 +1,11 @@
 <?php $data["title"] = "Home"; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
-<div uk-slideshow="animation: push;ratio: 1366:412;min-height: 412; max-height: 600">
+<div class="slideshow" uk-slideshow="animation: push;ratio: 1366:412;">
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
-        <div class="uk-slideshow-items" uk-height-viewport="min: 300;offset-top: true;">
+        <div class="uk-slideshow-items">
             <div>
                 <img src="https://document-ld.congnghetht.com.vn/Picture/d4666d21-3707-4f5d-890e-31f7234a039d.png" alt="" uk-cover>
             </div>
@@ -23,6 +23,72 @@
     </div>
 
 </div>
+
+<script>
+    let element = document.querySelector('.slideshow');
+    /**
+     * Hàm kiểm tra xem thiết bị có phải là mobile không.
+     *
+     * @returns {boolean} True nếu là mobile, ngược lại là false.
+     */
+    function isMobile() {
+        // Cách 1: Kiểm tra User-Agent (ít tin cậy hơn)
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        if (/android|iphone|ipad|ipod|blackberry|windows phone/i.test(userAgent)) {
+            return true;
+        }
+
+        // Cách 2: Kiểm tra kích thước màn hình (đáng tin cậy hơn)
+        // Giả sử mobile có chiều rộng màn hình <= 768px
+        if (window.innerWidth <= 768) {
+            return true;
+        }
+
+        // Cách 3: Kiểm tra bằng Media Query (phương pháp tốt nhất)
+        // Tương tự với CSS Media Query, trả về true nếu khớp
+        if (window.matchMedia('(max-width: 768px)').matches) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * Hàm chính để chạy các lệnh khác nhau tùy thuộc vào loại thiết bị.
+     */
+    function runBasedOnDevice() {
+        if (isMobile()) {
+            // Lệnh dành cho thiết bị di động (mobile)
+            console.log("Đây là thiết bị di động. Chạy lệnh cho mobile...");
+            // Đoạn code của bạn cho mobile sẽ đặt tại đây
+            UIkit.slideshow(element, {
+                minHeight: 300,
+                maxHeight: 600,
+            });
+        } else {
+            // Lệnh dành cho PC
+            console.log("Đây là PC. Chạy lệnh cho PC...");
+            // Đoạn code của bạn cho PC sẽ đặt tại đây
+            UIkit.slideshow(element, {
+                minHeight: 700,
+                maxHeight: 800,
+            });
+        }
+    }
+
+    // Chạy hàm khi trang được tải
+    window.onload = runBasedOnDevice;
+
+    // Thêm một đoạn mã nhỏ để người dùng thấy kết quả trực tiếp
+    document.addEventListener('DOMContentLoaded', () => {
+        runBasedOnDevice();
+
+        // Cập nhật kết quả khi cửa sổ trình duyệt thay đổi kích thước
+        window.addEventListener('resize', runBasedOnDevice);
+    });
+
+
+</script>
 
 <div class="uk-section">
     <div class="uk-container">
